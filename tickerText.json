@@ -1,0 +1,107 @@
+{
+    "name": "Ticker Text",
+    "description": "Custom Widget Ticker Text",
+	"newInstancePrefix": "TickerText",
+    "eula": "",
+    "vendor": "SAP",
+    "license": "MIT",
+    "id": "com.sap.sample.tickertext",
+    "version": "1.0.0",
+    "icon": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/tickerText/text.png",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "ticker-text",
+            "url": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/tickerText/tickerText_main.js",
+			"integrity": "sha256-SFVBhZ1f/UIfvKTNIYv9Tptj101sq1oz4qD0UY9gpHY="
+        },
+        {
+            "kind": "styling",
+            "tag": "ticker-text-styling",
+            "url": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/tickerText/tickerText_styling.js",
+			"integrity": "sha256-/8Scdu3UVuFIhF2dCp/M2tpsMa5b69rQZh+WF3b8VLE="
+        }
+    ],
+    "properties": {
+		"text": {
+			"type": "string",
+            "description": "ticker text"
+        },
+        "textColor": {
+			"type": "string",
+            "description": "text color"
+		},
+        "backgroundColor": {
+			"type": "string",
+            "description": "background color"
+		},
+		"width": {
+			"type": "integer",
+			"default": 150
+		},
+		"height": {
+			"type": "integer",
+			"default": 80
+		}
+	},
+	"methods": {
+        "getText": {
+			"returnType": "string",
+			"description": "Text shown in Ticker",
+			"parameters": [],
+			"body": "return this.text;"
+		},
+		"setText": {
+			"description": "New text to show in Ticker",
+			"parameters": [
+				{
+					"name": "txt",
+					"type": "string",
+					"description": "New text to show in Ticker"
+				}
+			],
+			"body": "this.text = txt;"
+        },
+        "getTextColor": {
+			"returnType": "string",
+			"description": "Text color",
+			"parameters": [],
+			"body": "return this.textColor;"
+		},
+		"setTextColor": {
+			"description": "New text color",
+			"parameters": [
+				{
+					"name": "textColor",
+					"type": "string",
+					"description": "New text color"
+				}
+			],
+			"body": "this.textColor = textColor;"
+        },
+        "getBackgroundColor": {
+			"returnType": "string",
+			"description": "Background color ",
+			"parameters": [],
+			"body": "return this.backgroundColor;"
+		},
+		"setBackgroundColor": {
+			"description": "New background color",
+			"parameters": [
+				{
+					"name": "backgroundColor",
+					"type": "string",
+					"description": "New background color"
+				}
+			],
+			"body": "this.backgroundColor = backgroundColor;"
+		}
+
+    },
+    "events":{
+        "onClick": {
+			"description": "Ticker was clicked"
+	   }
+    }
+
+}
