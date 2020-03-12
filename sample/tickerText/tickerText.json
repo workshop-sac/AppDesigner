@@ -12,13 +12,13 @@
         {
             "kind": "main",
             "tag": "ticker-text",
-            "url": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/tickerText/tickerText_main.js",
+            "url": "https://workshop-sac.github.io/AppDesigner/sample/tickerText/tickerText_main.js",
 			"integrity": "sha256-SFVBhZ1f/UIfvKTNIYv9Tptj101sq1oz4qD0UY9gpHY="
         },
         {
             "kind": "styling",
             "tag": "ticker-text-styling",
-            "url": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/tickerText/tickerText_styling.js",
+            "url": "https://workshop-sac.github.io/AppDesigner/sample/tickerText/tickerText_styling.js",
 			"integrity": "sha256-/8Scdu3UVuFIhF2dCp/M2tpsMa5b69rQZh+WF3b8VLE="
         }
     ],
