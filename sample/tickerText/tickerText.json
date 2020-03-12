@@ -7,19 +7,22 @@
     "license": "MIT",
     "id": "com.sap.sample.tickertext",
     "version": "1.0.0",
-    "icon": "https://github.wdf.sap.corp/pages/orca/custom-widget-samples/tickerText/text.png",
+    "icon": "https://workshop-sac.github.io/AppDesigner/sample/tickerText/text.png",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "ticker-text",
             "url": "https://workshop-sac.github.io/AppDesigner/sample/tickerText/tickerText_main.js",
-			"integrity": "sha256-SFVBhZ1f/UIfvKTNIYv9Tptj101sq1oz4qD0UY9gpHY="
+			"integrity": "sha256-SFVBhZ1f/UIfvKTNIYv9Tptj101sq1oz4qD0UY9gpHY=",
+			"ignoreIntegrity": true
+
         },
         {
             "kind": "styling",
             "tag": "ticker-text-styling",
             "url": "https://workshop-sac.github.io/AppDesigner/sample/tickerText/tickerText_styling.js",
-			"integrity": "sha256-/8Scdu3UVuFIhF2dCp/M2tpsMa5b69rQZh+WF3b8VLE="
+			"integrity": "sha256-/8Scdu3UVuFIhF2dCp/M2tpsMa5b69rQZh+WF3b8VLE=",
+			"ignoreIntegrity": true
         }
     ],
     "properties": {
