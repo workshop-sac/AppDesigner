@@ -6,7 +6,7 @@
     "vendor": "SAP",
     "license": "MIT",
     "id": "com.sap.sample.tickertext",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "icon": "https://workshop-sac.github.io/AppDesigner/sample/tickerText/text.png",
     "webcomponents": [
         {
